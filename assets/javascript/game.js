@@ -22,6 +22,10 @@ document.onkeyup = function(event){
     // setting our win condition
     if (userGuess === computerGuess) {
         wins++;
+        guessCount = 10; // check comments beneath loss condition. 
+        guessedLetters = [];
+
+
     } else {
         guessCount--;
     }
