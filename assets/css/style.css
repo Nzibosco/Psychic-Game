@@ -1,0 +1,5 @@
+/*changing the color of guess what I am thinking text */
+#directiontext {
+    color: red;
+    font-size: 20px;
+}
